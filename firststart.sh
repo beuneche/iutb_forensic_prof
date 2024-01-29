@@ -1,4 +1,6 @@
 #!/bin/bash
-/etc/init.d/ssh start
-/etc/init.d/apache2 start
+systemctl daemon-reload
+systemctl start IpManager
+systemctl enable IpManager
+
 
